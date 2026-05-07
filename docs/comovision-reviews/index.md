@@ -30,7 +30,7 @@ ComoVision Reviews funktioniert anders: **Alle Kommunikation mit Google findet a
 | WordPress | 6.0 oder höher |
 | PHP | 8.0 oder höher |
 | Google Places API Key | mit aktivierter Places API |
-| Lizenzschlüssel | erhältlich bei [ComoVision](https://como.vision) |
+| Lizenzschlüssel | erhältlich bei [ComoVision](https://www.comovision.de) |
 
 ## Schnellstart
 
