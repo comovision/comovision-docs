@@ -27,8 +27,8 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-  icon:
-    logo: material/star-circle
+  logo: assets/logo.png
+  favicon: assets/logo.png
 
 extra:
   social:
