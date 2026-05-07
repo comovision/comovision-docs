@@ -35,7 +35,9 @@ extra:
     - icon: fontawesome/solid/globe
       link: https://como.vision
 
-copyright: Copyright &copy; 2025 ComoVision
+copyright: >
+  Copyright &copy; 2025 ComoVision &nbsp;·&nbsp;
+  <a href="https://www.comovision.de/impressum/" target="_blank" rel="noopener">Impressum</a>
 
 nav:
   - Start: index.md
