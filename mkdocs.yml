@@ -1,0 +1,61 @@
+site_name: ComoVision Docs
+site_url: https://docs.como.vision
+site_description: Dokumentation für ComoVision Produkte und Plugins
+site_author: ComoVision
+
+theme:
+  name: material
+  language: de
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Dunkelmodus
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Hellmodus
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://como.vision
+
+copyright: Copyright &copy; 2025 ComoVision
+
+nav:
+  - Start: index.md
+  - ComoVision Reviews:
+    - Übersicht: comovision-reviews/index.md
+    - Installation: comovision-reviews/installation.md
+    - Konfiguration: comovision-reviews/konfiguration.md
+    - Review Manager: comovision-reviews/review-manager.md
+    - Shortcode: comovision-reviews/shortcode.md
+    - Lizenz & Updates: comovision-reviews/lizenz.md
+    - Changelog: comovision-reviews/changelog.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
